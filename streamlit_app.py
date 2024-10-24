@@ -6,7 +6,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain_community.chat_models import ChatOpenAI
-
+import openai
 
 # 환경 변수 설정
 # api_key = st.secrets["OPENAI_API_KEY"]
