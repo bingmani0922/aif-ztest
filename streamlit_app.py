@@ -7,7 +7,6 @@ from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 
 
-
 # 환경 변수 설정
 os.environ["OPENAI_API_KEY"] = "sk-lboEEMRVdQVDHiFHUza6hAp7RVPZxsRjBRZc4OOxlBT3BlbkFJiedxhypixAfqQYJnu2I3KayO-iAO8EZv2CVimnnBkA"
 
