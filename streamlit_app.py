@@ -9,7 +9,8 @@ from langchain.memory import ConversationBufferMemory
 
 
 # 환경 변수 설정
-os.environ["OPENAI_API_KEY"] = "sk-lboEEMRVdQVDHiFHUza6hAp7RVPZxsRjBRZc4OOxlBT3BlbkFJiedxhypixAfqQYJnu2I3KayO-iAO8EZv2CVimnnBkA"
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+# "sk-lboEEMRVdQVDHiFHUza6hAp7RVPZxsRjBRZc4OOxlBT3BlbkFJiedxhypixAfqQYJnu2I3KayO-iAO8EZv2CVimnnBkA"
 
 # 메모리 객체 생성
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
