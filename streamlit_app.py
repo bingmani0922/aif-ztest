@@ -96,7 +96,7 @@ def handle_user_input():
             )
 
             # LLM 설정
-            llm = ChatOpenAI(model='gpt-4', temperature=0)
+            llm = ChatOpenAI(model='gpt-4o', temperature=0)
             chain = LLMChain(
                 llm=llm,
                 prompt=ChatPromptTemplate.from_template(prompt),
