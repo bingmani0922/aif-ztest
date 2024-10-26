@@ -9,9 +9,9 @@ from langchain_community.chat_models import ChatOpenAI
 import openai
 
 # 환경 변수 설정
-api_key = st.secret["OPENAI_API_KEY"]
+# api_key = st.secret["OPENAI_API_KEY"]
 # os.environ["OPENAI_API_KEY"] = "sk-Ff5UtnaNduMinWUeVMQIniOiThvc9jnnzmUp1Wsx_JT3BlbkFJqsndc9ZGaNBv7pT9CepAZfdSUhSCTqAhMK1B2nL8cA"
-# openai.api_key = "sk-Ff5UtnaNduMinWUeVMQIniOiThvc9jnnzmUp1Wsx_JT3BlbkFJqsndc9ZGaNBv7pT9CepAZfdSUhSCTqAhMK1B2nL8cA"
+openai.api_key = "sk-Ff5UtnaNduMinWUeVMQIniOiThvc9jnnzmUp1Wsx_JT3BlbkFJqsndc9ZGaNBv7pT9CepAZfdSUhSCTqAhMK1B2nL8cA"
 
 # 메모리 객체 생성
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
